@@ -47,7 +47,8 @@ import finishXML
 
 xsltproc = '/usr/bin/xsltproc'
 xsltCommand = xsltproc + ' -o %(output)s %(style)s %(input)s >/dev/null'
-defaultStylesheet='/var/www/cmlcomp/XSLT/ccViz.xsl'
+#defaultStylesheet='/geophysics/walker/public_html/XSLT/ccViz.xsl'
+defaultStylesheet='/geophysics/walker/public_html/XSLT/display.xsl'
 
 # Nothing below this line should be altered.
 ############################################
@@ -55,7 +56,7 @@ defaultStylesheet='/var/www/cmlcomp/XSLT/ccViz.xsl'
 # CGI environment variables of interest.
 thisServer = os.environ['SERVER_NAME']
 thisPage = os.environ['SCRIPT_NAME']
-thisPage = 'http://CMLComp.org/ccViz/'
+thisPage = 'http://www1.gly.bris.ac.uk/~walker/cgi-bin/ccViz/index.cgi'
 if os.environ.has_key('HTTP_ACCEPT'):
     httpAccept = os.environ['HTTP_ACCEPT']
 else:
