@@ -1,0 +1,2105 @@
+<?xml version="1.0"?>
+<dictionary 
+  namespace="http://www.esc.cam.ac.uk/DLP"
+  title="DLP dictionary"
+  xmlns="http://www.xml-cml.org/schema"
+  xmlns:h="http://www.w3.org/1999/xhtml/"
+  xmlns:cml="http://www.xml-cml.org/schema"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:golem="http://www.lexical.org.uk/golem"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <entry id="ActualNumberSteps" term="Actual number of steps">
+    <annotation />
+    <definition>Actual number of steps in the molecular dynamics simuations.</definition>
+    <description>
+      <h:p>May be less that the requested number of steps, if the time was not set properly.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="TotalEnergy" term="Instantaneous total energy">
+    <annotation />
+    <definition>Instantaneous total energy, potential + kinetic</definition>
+    <description>
+      <h:p>Obtained from each configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="TotalTemperature" term="Instantaneous total temperature">
+    <annotation />
+    <definition>Instantaneous total temperature (rotational + translation)</definition>
+    <description>
+      <h:p>Obtained from each configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="ConfigurationEnergy" term="Instantaneous configuration energy">
+    <annotation />
+    <definition>Instantaneous energy of the configuration</definition>
+    <description>
+      <h:p>Obtained from each configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="VdWEnergy" term="Instantaneous Van der Waals energy">
+    <annotation />
+    <definition>Instantaneous Van der Waals energy</definition>
+    <description>
+      <h:p>Obtained from each configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="CoulombEnergy" term="Instantaneous Coulomb energy">
+    <annotation />
+    <definition>Instantaneous Coulomb energy</definition>
+    <description>
+      <h:p>Obtained from each configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="BondEnergy" term="Instantaneous bond energy">
+    <annotation />
+    <definition>Instantaneous bond energy</definition>
+    <description>
+      <h:p>Obtained from each configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AngleEnergy" term="Instantaneous angle energy">
+    <annotation />
+    <definition>Instantaneous bond-angle energy</definition>
+    <description>
+      <h:p>Obtained from each configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="DihedralEnergy" term="Instantaneous dihedral energy">
+    <annotation />
+    <definition>Instantaneous bond dihedral energy</definition>
+    <description>
+      <h:p>Obtained from each configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="TetheringEnergy" term="Instantaneous tethering energy">
+    <annotation />
+    <definition>Instantaneous tethering energy</definition>
+    <description>
+      <h:p>Obtained from each configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="Enthalpy" term="Instantaneous enthalpy">
+    <annotation />
+    <definition>Instantaneous enthalpy</definition>
+    <description>
+      <h:p>Obtained from each configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="RotationalTemperature" term="Instantaneous rotational temperature">
+    <annotation />
+    <definition>Instantaneous rotational temperature</definition>
+    <description>
+      <h:p>Obtained from each configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="ConfigurationVirial" term="Instantaneous configuration virial">
+    <annotation />
+    <definition>Instantaneous configuration virial</definition>
+    <description>
+      <h:p>Obtained from each configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="VdWVirial" term="Instantaneous Van der Waals Virial">
+    <annotation />
+    <definition>Instantaneous Van der Waals Virial</definition>
+    <description>
+      <h:p>Obtained from each configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="CoulombVirial" term="Instantaneous Coulomb virial">
+    <annotation />
+    <definition>Instantaneous Coulomb virial</definition>
+    <description>
+      <h:p>Obtained from each configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="BondVirial" term="Instantaneous bond virial">
+    <annotation />
+    <definition>Instantaneous bond virial</definition>
+    <description>
+      <h:p>Obtained from each configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AngleVirial" term="Instantaneous angle virial">
+    <annotation />
+    <definition>Instantaneous bond-angle virial</definition>
+    <description>
+      <h:p>Obtained from each configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="ConstraintVirial" term="Instantaneous constraint virial">
+    <annotation />
+    <definition>Instantaneous constraint virial</definition>
+    <description>
+      <h:p>Obtained from each configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="TetheringVirial" term="Instantaneous tethering virial">
+    <annotation />
+    <definition>Instantaneous tethering virial</definition>
+    <description>
+      <h:p>Obtained from each configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="Volume" term="Instantaneous volume">
+    <annotation />
+    <definition>Instantaneous sample volume</definition>
+    <description>
+      <h:p>Obtained from each configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="ShellTemperature" term="Instantaneous shell temperature">
+    <annotation />
+    <definition>Instantaneous shell temperature</definition>
+    <description>
+      <h:p>Obtained from each configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="ShellEnergy" term="Instantaneous shell energy">
+    <annotation />
+    <definition>Instantaneous shell energy</definition>
+    <description>
+      <h:p>Obtained from each configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="ShellVirial" term="Instantaneous shell virial">
+    <annotation />
+    <definition>Instantaneous shell virial</definition>
+    <description>
+      <h:p>Obtained from each configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="SamplePressure" term="Instantaneous sample pressure">
+    <annotation />
+    <definition>Instantaneous sample pressure</definition>
+    <description>
+      <h:p>Obtained from each configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="analysis" term="Analysis">
+    <annotation />
+    <definition>Analysis of the molecular dynamics configuration.</definition>
+    <description>
+      <h:p>This describes the step-wise analysis of configurations.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageTotalEnergy" term="Average total energy">
+    <annotation />
+    <definition>Average total energy, potential + kinetic</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageTotalTemperature" term="Average total temperature">
+    <annotation />
+    <definition>Average total temperature (rotational + translation)</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageConfigurationEnergy" term="Average configuration energy">
+    <annotation />
+    <definition>Average energy of the configuration</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageVdWEnergy" term="Average Van der Waals energy">
+    <annotation />
+    <definition>Average Van der Waals energy</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageCoulombEnergy" term="Average Coulomb energy">
+    <annotation />
+    <definition>Average Coulomb energy</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageBondEnergy" term="Average bond energy">
+    <annotation />
+    <definition>Average bond energy</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageAngleEnergy" term="Average angle energy">
+    <annotation />
+    <definition>Average bond-angle energy</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageDihedralEnergy" term="Average dihedral energy">
+    <annotation />
+    <definition>Average bond dihedral energy</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageTetheringEnergy" term="Average tethering energy">
+    <annotation />
+    <definition>Average tethering energy</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageEnthalpy" term="Average enthalpy">
+    <annotation />
+    <definition>Average enthalpy</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageRotationalTemperature" term="Average rotational temperature">
+    <annotation />
+    <definition>Average rotational temperature</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageConfigurationVirial" term="Average configuration virial">
+    <annotation />
+    <definition>Average configuration virial</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageVdWVirial" term="Average Van der Waals Virial">
+    <annotation />
+    <definition>Average Van der Waals Virial</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageCoulombVirial" term="Average Coulomb virial">
+    <annotation />
+    <definition>Average Coulomb virial</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageBondVirial" term="Average bond virial">
+    <annotation />
+    <definition>Average bond virial</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageAngleVirial" term="Average angle virial">
+    <annotation />
+    <definition>Average bond-angle virial</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageConstraintVirial" term="Average constraint virial">
+    <annotation />
+    <definition>Average constraint virial</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageTetheringVirial" term="Average tethering virial">
+    <annotation />
+    <definition>Average tethering virial</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageVolume" term="Average volume">
+    <annotation />
+    <definition>Average sample volume</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageShellTemperature" term="Average shell temperature">
+    <annotation />
+    <definition>Average shell temperature</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageShellEnergy" term="Average shell energy">
+    <annotation />
+    <definition>Average shell energy</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageShellVirial" term="Average shell virial">
+    <annotation />
+    <definition>Average shell virial</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageSamplePressure" term="Average sample pressure">
+    <annotation />
+    <definition>Average sample pressure</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="BarostatRelaxationTime" term="Barostat relaxation time">
+    <annotation />
+    <definition>Relaxation time used by simulation barostat</definition>
+    <description>
+      <h:p>–</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="Cell1" term="Lattice matrix component 1">
+    <annotation />
+    <definition>Sample lattice matrix component 1,1</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="Cell2" term="Lattice matrix component 2">
+    <annotation />
+    <definition>Sample lattice matrix component 1,2</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="Cell3" term="Lattice matrix component 3">
+    <annotation />
+    <definition>Sample lattice matrix component 1,3</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="Cell4" term="Lattice matrix component 4">
+    <annotation />
+    <definition>Sample lattice matrix component 2,1</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="Cell5" term="Lattice matrix component 5">
+    <annotation />
+    <definition>Sample lattice matrix component 2,2</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="Cell6" term="Lattice matrix component 6">
+    <annotation />
+    <definition>Sample lattice matrix component 2,3</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="Cell7" term="Lattice matrix component 7">
+    <annotation />
+    <definition>Sample lattice matrix component 3,1</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="Cell8" term="Lattice matrix component 8">
+    <annotation />
+    <definition>Sample lattice matrix component 3,2</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="Cell9" term="Lattice matrix component 9">
+    <annotation />
+    <definition>Sample lattice matrix component 3,3</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageCell1" term="Average lattice matrix component 1">
+    <annotation />
+    <definition>Average sample lattice matrix component 1,1</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, averaged over all configurations.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageCell2" term="Average lattice matrix component 2">
+    <annotation />
+    <definition>Average sample lattice matrix component 1,2</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, averaged over all configurations.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageCell3" term="Average lattice matrix component 3">
+    <annotation />
+    <definition>Average sample lattice matrix component 1,3</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, averaged over all configurations.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageCell4" term="Average lattice matrix component 4">
+    <annotation />
+    <definition>Average sample lattice matrix component 2,1</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, averaged over all configurations.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageCell5" term="Average lattice matrix component 5">
+    <annotation />
+    <definition>Average sample lattice matrix component 2,2</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, averaged over all configurations.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageCell6" term="Average lattice matrix component 6">
+    <annotation />
+    <definition>Average sample lattice matrix component 2,3</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, averaged over all configurations.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageCell7" term="Average lattice matrix component 7">
+    <annotation />
+    <definition>Average sample lattice matrix component 3,1</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, averaged over all configurations.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageCell8" term="Average lattice matrix component 8">
+    <annotation />
+    <definition>Average sample lattice matrix component 3,2</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, averaged over all configurations.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="AverageCell9" term="Average lattice matrix component 9">
+    <annotation />
+    <definition>Average sample lattice matrix component 3,3</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, averaged over all configurations.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalCell1" term="Final lattice matrix component 1">
+    <annotation />
+    <definition>Final sample lattice matrix component 1,1</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, obtained form the final configuration.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalCell2" term="Final lattice matrix component 2">
+    <annotation />
+    <definition>Final sample lattice matrix component 1,2</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, obtained form the final configuration.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalCell3" term="Final lattice matrix component 3">
+    <annotation />
+    <definition>Final sample lattice matrix component 1,3</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, obtained form the final configuration.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalCell4" term="Final lattice matrix component 4">
+    <annotation />
+    <definition>Final sample lattice matrix component 2,1</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, obtained form the final configuration.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalCell5" term="Final lattice matrix component 5">
+    <annotation />
+    <definition>Final sample lattice matrix component 2,2</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, obtained form the final configuration.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalCell6" term="Final lattice matrix component 6">
+    <annotation />
+    <definition>Final sample lattice matrix component 2,3</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, obtained form the final configuration.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalCell7" term="Final lattice matrix component 7">
+    <annotation />
+    <definition>Final sample lattice matrix component 3,1</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, obtained form the final configuration.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalCell8" term="Final lattice matrix component 8">
+    <annotation />
+    <definition>Final sample lattice matrix component 3,2</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, obtained form the final configuration.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalCell9" term="Final lattice matrix component 9">
+    <annotation />
+    <definition>Final sample lattice matrix component 3,3</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, obtained form the final configuration.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevCell1" term="Standard deviation of the lattice matrix component 1">
+    <annotation />
+    <definition>Standard deviation of sample lattice matrix component 1,1</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, obtained from the average over all configurations.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevCell2" term="Standard deviation of the lattice matrix component 2">
+    <annotation />
+    <definition>Standard deviation of sample lattice matrix component 1,2</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, obtained from the average over all configurations.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevCell3" term="Standard deviation of the lattice matrix component 3">
+    <annotation />
+    <definition>Standard deviation of sample lattice matrix component 1,3</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, obtained from the average over all configurations.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevCell4" term="Standard deviation of the lattice matrix component 4">
+    <annotation />
+    <definition>Standard deviation of sample lattice matrix component 2,1</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, obtained from the average over all configurations.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevCell5" term="Standard deviation of the lattice matrix component 5">
+    <annotation />
+    <definition>Standard deviation of sample lattice matrix component 2,2</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, obtained from the average over all configurations.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevCell6" term="Standard deviation of the lattice matrix component 6">
+    <annotation />
+    <definition>Standard deviation of sample lattice matrix component 2,3</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, obtained from the average over all configurations.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevCell7" term="Standard deviation of the lattice matrix component 7">
+    <annotation />
+    <definition>Standard deviation of sample lattice matrix component 3,1</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, obtained from the average over all configurations.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevCell8" term="Standard deviation of the lattice matrix component 8">
+    <annotation />
+    <definition>Standard deviation of sample lattice matrix component 3,2</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, obtained from the average over all configurations.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevCell9" term="Standard deviation of the lattice matrix component 9">
+    <annotation />
+    <definition>Standard deviation of sample lattice matrix component 3,3</definition>
+    <description>
+      <h:p>One component of the array that defines the size and shape of the configuration, obtained from the average over all configurations.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="ConfigurationTitle" term="Configuration title">
+    <annotation />
+    <definition>Title of the configuration</definition>
+    <description>
+      <h:p>Located from the CONFIG file.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="ElectrostaticsType" term="Electrostatics type">
+    <annotation />
+    <definition>Method used for evaluating the electrostatic energy</definition>
+    <description>
+      <h:p>–</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="EnsembleType" term="Ensemble type">
+    <annotation />
+    <definition>Thermodynamic ensemble used in simulation.</definition>
+    <description>
+      <h:p>Set within the CONTROL file.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="EquilibrationSteps" term="Equilibration steps">
+    <annotation />
+    <definition>Number of equilibration steps</definition>
+    <description>
+      <h:p>Number of equilibration steps requested by the user.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="finalModule" term="Final module">
+    <annotation />
+    <definition>Module in which the final averages and standard deviations are presented.</definition>
+    <description>
+      <h:p>Component of the document structure.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalTotalEnergy" term="Final total energy">
+    <annotation />
+    <definition>Final total energy, potential + kinetic</definition>
+    <description>
+      <h:p>Obtained from the final configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalTotalTemperature" term="Final total temperature">
+    <annotation />
+    <definition>Final total temperature (rotational + translation)</definition>
+    <description>
+      <h:p>Obtained from the final configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalConfigurationEnergy" term="Final configuration energy">
+    <annotation />
+    <definition>Final energy of the configuration</definition>
+    <description>
+      <h:p>Obtained from the final configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalVdWEnergy" term="Final Van der Waals energy">
+    <annotation />
+    <definition>Final Van der Waals energy</definition>
+    <description>
+      <h:p>Obtained from the final configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalCoulombEnergy" term="Final Coulomb energy">
+    <annotation />
+    <definition>Final Coulomb energy</definition>
+    <description>
+      <h:p>Obtained from the final configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalBondEnergy" term="Final bond energy">
+    <annotation />
+    <definition>Final bond energy</definition>
+    <description>
+      <h:p>Obtained from the final configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalAngleEnergy" term="Final angle energy">
+    <annotation />
+    <definition>Final bond-angle energy</definition>
+    <description>
+      <h:p>Obtained from the final configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalDihedralEnergy" term="Final dihedral energy">
+    <annotation />
+    <definition>Final bond dihedral energy</definition>
+    <description>
+      <h:p>Obtained from the final configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalTetheringEnergy" term="Final tethering energy">
+    <annotation />
+    <definition>Final tethering energy</definition>
+    <description>
+      <h:p>Obtained from the final configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalEnthalpy" term="Final enthalpy">
+    <annotation />
+    <definition>Final enthalpy</definition>
+    <description>
+      <h:p>Obtained from the final configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalRotationalTemperature" term="Final rotational temperature">
+    <annotation />
+    <definition>Final rotational temperature</definition>
+    <description>
+      <h:p>Obtained from the final configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalConfigurationVirial" term="Final configuration virial">
+    <annotation />
+    <definition>Final configuration virial</definition>
+    <description>
+      <h:p>Obtained from the final configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalVdWVirial" term="Final Van der Waals Virial">
+    <annotation />
+    <definition>Final Van der Waals Virial</definition>
+    <description>
+      <h:p>Obtained from the final configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalCoulombVirial" term="Final Coulomb virial">
+    <annotation />
+    <definition>Final Coulomb virial</definition>
+    <description>
+      <h:p>Obtained from the final configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalBondVirial" term="Final bond virial">
+    <annotation />
+    <definition>Final bond virial</definition>
+    <description>
+      <h:p>Obtained from the final configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalAngleVirial" term="Final angle virial">
+    <annotation />
+    <definition>Final bond-angle virial</definition>
+    <description>
+      <h:p>Obtained from the final configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalConstraintVirial" term="Final constraint virial">
+    <annotation />
+    <definition>Final constraint virial</definition>
+    <description>
+      <h:p>Obtained from the final configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalTetheringVirial" term="Final tethering virial">
+    <annotation />
+    <definition>Final tethering virial</definition>
+    <description>
+      <h:p>Obtained from the final configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalVolume" term="Final volume">
+    <annotation />
+    <definition>Final sample volume</definition>
+    <description>
+      <h:p>Obtained from the final configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalShellTemperature" term="Final shell temperature">
+    <annotation />
+    <definition>Final shell temperature</definition>
+    <description>
+      <h:p>Obtained from the final configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalShellEnergy" term="Final shell energy">
+    <annotation />
+    <definition>Final shell energy</definition>
+    <description>
+      <h:p>Obtained from the final configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalShellVirial" term="Final shell virial">
+    <annotation />
+    <definition>Final shell virial</definition>
+    <description>
+      <h:p>Obtained from the final configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="FinalSamplePressure" term="Final sample pressure">
+    <annotation />
+    <definition>Final sample pressure</definition>
+    <description>
+      <h:p>Obtained from the final configuration</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="ImageConvention" term="Image convention">
+    <annotation />
+    <definition>Type of periodic boundary conditions used</definition>
+    <description>
+      <h:p>Set as a parameter in the CONFIG file.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="InitialVolume" term="Initial volume">
+    <annotation />
+    <definition>Initial volume</definition>
+    <description>
+      <h:p>Obtained from the CONFIG file.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="jobtime" term="Job time">
+    <annotation />
+    <definition>Job time</definition>
+    <description>
+      <h:p>Deduced at the end of the job.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="LinkCell" term="Link cell">
+    <annotation />
+    <definition>Flag concerning use of link cells</definition>
+    <description>
+      <h:p>Only provided if true; set by default in CONTROL file</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="NameOfEachMoleculeType" term="Name of each molecule type">
+    <annotation />
+    <definition>Names of each molecule type</definition>
+    <description>
+      <h:p>Array of character strings. Defined in the FIELD file.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="naverage" term="naverage">
+    <annotation />
+    <definition>Number of configurations over which the average properties have been obtained.</definition>
+    <description>
+      <h:p>Formed by counting the number of configurations reported in the STATIS file.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="NumberMoleculeTypes" term="Number of molecule types">
+    <annotation />
+    <definition>Number of different types of molecules</definition>
+    <description>
+      <h:p>Obtained from the FIELD file, but must be consistent with the CONFIG file.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="NumberOfEachMoleculeTypes" term="Number of each molecule type">
+    <annotation />
+    <definition>Number of molecules of each type (array)</definition>
+    <description>
+      <h:p>Obtained from the FIELD file, but must be consistent with the CONFIG file.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="NumberOfSitesInEachMoleculeType" term="number of sites in each molecule type">
+    <annotation />
+    <definition>Number of atomic sites within each type of molecule (array)</definition>
+    <description>
+      <h:p>Derived from CONFIG file.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="NumberSteps" term="Number of steps">
+    <annotation />
+    <definition>Number of time steps in the simulation</definition>
+    <description>
+      <h:p>Number of steps requested by the user in the CONTROL file.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="NumberStepsAveraged" term="Number of steps averaged">
+    <annotation />
+    <definition>Number of configurations whose properties are given in the STATIS file</definition>
+    <description>
+      <h:p>Read from the OUTPUT file, and not used to form the average properties.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="PDF" term="Pair distribution function">
+    <annotation />
+    <definition>Pair distribution function</definition>
+    <description>
+      <h:p>Pair distribution data (called the radial distribution function by DL_POLY) are stored in the RDFDAT file. Data are given pair-wise rather than merged.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="pressure" term="Pressure">
+    <annotation />
+    <definition>Pre-set sample pressure</definition>
+    <description>
+      <h:p>Pressure of the sample set by the user in the CONTROL file. It is the pressure used in constant pressure/stress algorithms.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="PrintInterval" term="Print interval">
+    <annotation />
+    <definition>Interval between print steps</definition>
+    <description>
+      <h:p>Set by the user in the CONTROL file.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="r" term="Distance">
+    <annotation />
+    <definition>Interatomic distance</definition>
+    <description>
+      <h:p>Used as the abscissa for the plots of the pair distribution function.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="RotationalDegreesOfFreedom" term="Rotational degrees of freedom">
+    <annotation />
+    <definition>Total number of rotational degrees of freedom.</definition>
+    <description>
+      <h:p>Used for polyatomic molecules</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="ShellDegreesOfFreedom" term="Shell degrees of freedom">
+    <annotation />
+    <definition>Total number of degrees of freedom associated with atomic shells</definition>
+    <description>
+      <h:p>Used for the shell model.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StatisticsFileInterval" term="Statistics file interval">
+    <annotation />
+    <definition>Interval between writing data statistics to the STATIS file</definition>
+    <description>
+      <h:p>–</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevTotalEnergy" term="Standard deviation of the total energy">
+    <annotation />
+    <definition>Standard deviation of the total energy, potential + kinetic</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevTotalTemperature" term="Standard deviation of the total temperature">
+    <annotation />
+    <definition>Standard deviation of the total temperature (rotational + translation)</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevConfigurationEnergy" term="Standard deviation of the configuration energy">
+    <annotation />
+    <definition>Standard deviation of the energy of the configuration</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevVdWEnergy" term="Standard deviation of the Van der Waals energy">
+    <annotation />
+    <definition>Standard deviation of the Van der Waals energy</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevCoulombEnergy" term="Standard deviation of the Coulomb energy">
+    <annotation />
+    <definition>Standard deviation of the Coulomb energy</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevBondEnergy" term="Standard deviation of the bond energy">
+    <annotation />
+    <definition>Standard deviation of the bond energy</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevAngleEnergy" term="Standard deviation of the angle energy">
+    <annotation />
+    <definition>Standard deviation of the bond-angle energy</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevDihedralEnergy" term="Standard deviation of the dihedral energy">
+    <annotation />
+    <definition>Standard deviation of the bond dihedral energy</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevTetheringEnergy" term="Standard deviation of the tethering energy">
+    <annotation />
+    <definition>Standard deviation of the tethering energy</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevEnthalpy" term="Standard deviation of the enthalpy">
+    <annotation />
+    <definition>Standard deviation of the enthalpy</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevRotationalTemperature" term="Standard deviation of the rotational temperature">
+    <annotation />
+    <definition>Standard deviation of the rotational temperature</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevConfigurationVirial" term="Standard deviation of the configuration virial">
+    <annotation />
+    <definition>Standard deviation of the configuration virial</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevVdWVirial" term="Standard deviation of the Van der Waals Virial">
+    <annotation />
+    <definition>Standard deviation of the Van der Waals Virial</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevCoulombVirial" term="Standard deviation of the Coulomb virial">
+    <annotation />
+    <definition>Standard deviation of the Coulomb virial</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevBondVirial" term="Standard deviation of the bond virial">
+    <annotation />
+    <definition>Standard deviation of the bond virial</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevAngleVirial" term="Standard deviation of the angle virial">
+    <annotation />
+    <definition>Standard deviation of the bond-angle virial</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevConstraintVirial" term="Standard deviation of the constraint virial">
+    <annotation />
+    <definition>Standard deviation of the constraint virial</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevTetheringVirial" term="Standard deviation of the tethering virial">
+    <annotation />
+    <definition>Standard deviation of the tethering virial</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevVolume" term="Standard deviation of the volume">
+    <annotation />
+    <definition>Standard deviation of the sample volume</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevShellTemperature" term="Standard deviation of the shell temperature">
+    <annotation />
+    <definition>Standard deviation of the shell temperature</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevShellEnergy" term="Standard deviation of the shell energy">
+    <annotation />
+    <definition>Standard deviation of the shell energy</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevShellVirial" term="Standard deviation of the shell virial">
+    <annotation />
+    <definition>Standard deviation of the shell virial</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="StDevSamplePressure" term="Standard deviation of the sample pressure">
+    <annotation />
+    <definition>Standard deviation of the sample pressure</definition>
+    <description>
+      <h:p>Averaged over all time steps</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="temperature" term="Temperature">
+    <annotation />
+    <definition>Input temperature</definition>
+    <description>
+      <h:p>Temperature selected by the user through the CONTROL file. It is used as the temperature for a constant-T algorithm or the target for temperature scaling in the equilibration stage.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="TemperatureScaling" term="Temperature scaling">
+    <annotation />
+    <definition>Temperature scaling algorithm used</definition>
+    <description>
+      <h:p>Set by user in CONTROL file.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="TemperatureScalingInterval" term="Temperature scaling interval">
+    <annotation />
+    <definition>Time interval between temperature scaling steps</definition>
+    <description>
+      <h:p>Set by user in CONTROL file.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="TemperatureScalingOn" term="Temperature scaling on">
+    <annotation />
+    <definition>Flag to indicate whether temperature scaling is on</definition>
+    <description>
+      <h:p>Value is on or off.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="ThermostatRelaxationTime" term="Thermostat relaxation time">
+    <annotation />
+    <definition>Relaxation time used by thermostat</definition>
+    <description>
+      <h:p>–</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="TimeStep" term="Time step">
+    <annotation />
+    <definition>Value of the time step</definition>
+    <description>
+      <h:p>Set by user in CONTROL file.</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+  <entry id="TotalDegreesOfFreedom" term="Total degrees of freedom">
+    <annotation />
+    <definition>Total number of degrees of freedom in the simulation</definition>
+    <description>
+      <h:p>–</h:p>
+    </description>
+   <metadataList>
+      <metadata name="dc:creator" content="Martin Dove"/>
+      <metadata name="dc:date" content="27-October-2008"/>
+      <metadata name="dc:source" content=""/>
+    </metadataList>
+  </entry>
+
+</dictionary>
